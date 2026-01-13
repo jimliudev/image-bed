@@ -1,0 +1,28 @@
+{
+  "name": "image-bed",
+  "version": "1.0.0",
+  "description": "GitHub API 圖片上傳工具",
+  "main": "script/upload-image.ts",
+  "scripts": {
+    "upload": "ts-node script/upload-image.ts",
+    "build": "tsc",
+    "dev": "ts-node"
+  },
+  "keywords": [
+    "github",
+    "image",
+    "upload",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
