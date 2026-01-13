@@ -77,8 +77,8 @@ class GitHubImageUploader {
       const fileName = customFileName || this.generateFileName(path.basename(localFilePath));
       const base64Content = this.fileToBase64(localFilePath);
       
-      // 設定遠端路徑（預設為 images 資料夾）
-      const remoteDir = remotePath || 'images';
+      // 設定遠端路徑（預設為 image/blog 資料夾）
+      const remoteDir = remotePath || 'image/blog';
       const remoteFilePath = `${remoteDir}/${fileName}`;
 
       console.log(`正在上傳圖片: ${localFilePath}`);
