@@ -1,5 +1,3 @@
-Many people bought the Mac Mini to run OpenClaw. I came up with a great idea to oprate the AI Agent via Telegram, saving money at the same time. I use a Raspberry Pi to run Claude code via Telegram.
-
 # Step 1: install Raspberry Pi and set the auto connect WiFi.
 I used a Raspberry Pi4 ModelB. Use the UI Tools of Office.
 Not need create wpa_supplicant.conf.
