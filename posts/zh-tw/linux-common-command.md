@@ -21,3 +21,6 @@ find . -type f -size 1033c
 
 find . -name ".*"
 ls -la
+
+. current directory
+/ root directory
