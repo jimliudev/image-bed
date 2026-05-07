@@ -1,6 +1,6 @@
 # Cat
 
-**1. file name called -**
+## 1. file name called -
 
 cat ./-
 
@@ -9,15 +9,15 @@ cat ./-
 - cat -- "--spaces in this filename--"
 - 先打cat ./-再按tab自動補全。
 
-**3. check the file format.**
+## 3. check the file format.
 
 file ./*
 
-**4. find**
+## 4. find
 
 find . -type f -size 1033c
 
-**5. find hidden file**
+## 5. find hidden file
 
 find . -name ".*"
 ls -la
@@ -40,7 +40,24 @@ find / -user bandit7 -group bandit6 -size 33c -exec cat {} + 2>/dev/null
 
 - 2>/dev/null：依然保留，用來過濾掉因權限不足產生的錯誤雜訊 。
 
-### Other
+## 6. grep
+
+cat data.txt | grep millionth
+
+**The strings command identifies and extracts human-readable ASCII strings from binary files.**
+strings data.txt | grep "=="
+
+## 7. sort content and unique value
+
+sort data.txt | uniq -u
+
+## 8. base64 decode
+base64 -d data.txt
+
+## 9. Shift alphabet place
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+## Other
 
 2>/dev/null
 系統會開啟三個標準的資料通道 0 1 2
