@@ -1,0 +1,1 @@
+Sui 101 is everything are NFT (Nofugible token), every variables are object with uniqle id store on the Sui Blockchain.
