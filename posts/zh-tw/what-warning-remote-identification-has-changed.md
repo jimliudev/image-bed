@@ -1,7 +1,8 @@
 ## 錯誤紀錄： WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 
-SSH登入時會把遠端的公鑰、domain、ip做紀錄，如果第二次登入時做的紀錄不一樣就會有這個WARNING。
+![Screenshot 2026-07-22 at 10.22.48 PM](https://raw.githubusercontent.com/jimliudev/image-bed/main/image/blog/Screenshot 2026-07-22 at 10.22.48 PM-1784730195366.png)
 
+SSH登入時會把遠端的公鑰、domain、ip做紀錄，如果第二次登入時做的紀錄不一樣就會有這個WARNING。
 
 ### SSH 登入原理：
 SSH 採用的是 TOFU (Trust On First Use，首次連線即信任) 模型：
